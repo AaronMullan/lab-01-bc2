@@ -1,12 +1,60 @@
 * {
     box-sizing: border-box;
-    background-color: D6E715;
+    font-family: ‘Quicksand’, sans-serif;
+
 }
-header {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    background-color: 8F;
-}
+
 body {
-    background-color: D6E715;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: yellow;
+
+}
+
+main {
+    background-color: blue;
+}
+
+.image-gallery {
+    width: 80vw;
+    margin: auto;
+}
+
+.gallery-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-bottom: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    max-width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: ‘Oxygen’, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    padding: 6px;
+    border-radius: 2em;
+}
+
+footer {
+    background-color: red;
+}
+
+li {
+    background-color: orange;
 }
