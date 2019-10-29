@@ -1,3 +1,12 @@
 * {
     box-sizing: border-box;
+    background-color: D6E715;
+}
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: 8F;
+}
+body {
+    background-color: D6E715;
 }
