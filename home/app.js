@@ -1,6 +1,6 @@
-import images from './data/images.js';
-import htmlToDOM from './util/html-to-DOM.js';
-import renderGalleryCard from './home/render-gallery-card.js';
+import images from '../data/images.js';
+import htmlToDOM from '../util/html-to-DOM.js';
+import renderGalleryCard from './render-gallery-card.js';
 
 const card = document.querySelector('.gallery-cards');
 

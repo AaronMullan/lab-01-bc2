@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: ‘Quicksand’, sans-serif;
-
 }
 
 body {
@@ -13,12 +11,12 @@ body {
 .header-container {
     display: grid;
     grid-template-columns: 30% 70%;
-    background-color: yellow;
+    background-color: #FBCD26;
 
 }
 
 main {
-    background-color: blue;
+    background-color: #8FBB09;
 }
 
 .image-gallery {
@@ -38,10 +36,10 @@ li {
     justify-content: center;
     align-items: center;
     border: 2px solid black;
+    border-radius: 2em;
     max-width: fit-content;
     padding: 10px;
     margin-top: 20px;
-    font-family: ‘Oxygen’, sans-serif;
 }
 
 img {
@@ -52,9 +50,10 @@ img {
 }
 
 footer {
-    background-color: red;
+    background-color: #F64D0D;
 }
 
 li {
-    background-color: orange;
+    background-color: #FA8F04;
 }
+ 
